@@ -1,0 +1,34 @@
+/**
+ * @description Form variables
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ */
+@action__outer-indent: .7rem;
+@action__height: 3.2rem;
+@action__line-height: @line-height__base;
+@action__font-size: @font-size__base;
+@action__border-color: @color-gray_light;
+@action__active__border-color: lighten(@action__border-color, 5%);
+@action-select__z-index: @z-index-5;
+@action-menu__hover__background-color: @color-gray_light;
+@action-dropdown__background-color: @page-wrapper__background-color;
+@action-dropdown__padding-bottom: .8rem;
+@action-dropdown__padding-top: .7rem;
+@action-dropdown__color: @text__color;
+@action-dropdown__hover__color: darken(@action-dropdown__color, 20%);
+@action-multicheck__z-index: @z-index-2;
+@button-marker-triangle__height: .5rem;
+@button-marker-triangle__width: .8rem;
+
+@button__padding-horizontal: 1em;
+@control-checkbox-radio__size: 1.6rem;
+@field-control__border-width: 1px;
+@field-control__height: @action__height;
+@field-control__line-height: @action__line-height;
+@field-control__font-size: @action__font-size;
+@field-control__padding-bottom: @action__padding-bottom;
+@field-control__padding-top: @action__padding-top;
+@field-error-message__background-color: @page__background-color;
+@field-error-message__border-color: @color-gray_light;
+
+@action__padding-top: round(((@field-control__height - (@field-control__font-size * @field-control__line-height) - ((unit(@field-control__border-width) / @font-size-unit-ratio) * 2)) / 2 + .1), 1);
+@action__padding-bottom: @field-control__padding-top;

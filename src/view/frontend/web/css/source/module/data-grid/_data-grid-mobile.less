@@ -1,0 +1,118 @@
+/**
+ * @description Data grid mobile styles
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ */
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+    .admin__data-grid-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        font-size: .5em;
+
+        .admin__data-grid-header-row {
+            .data-grid-filters-actions-wrap {
+                float: none;
+
+                .data-grid-filters-action-wrap {
+                    float: none;
+                    padding: 0;
+
+                    .action-default {
+                        font-size: 1.5em;
+
+                        &:before {
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+            }
+
+            .admin__data-grid-filters-wrap {
+                &._show {
+                    .admin__fieldset {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0;
+
+                        .admin__form-field {
+                            .admin__form-field-legend, .admin__form-field-label {
+                                font-size: .5em;
+                            }
+
+                            .admin__form-field-control {
+                                select {
+                                    font-size: .5em;
+                                }
+                            }
+                        }
+                    }
+
+                    .admin__data-grid-filters-footer {
+                        .admin__footer-main-actions {
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 0;
+
+                            button {
+                                span {
+                                    font-size: .5em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.row-gutter {
+                .row {
+                    .admin__data-grid-pager-wrap {
+                        float: none;
+
+                        .selectmenu {
+                            display: none;
+                        }
+
+                        .admin__control-support-text {
+                            display: none;
+                        }
+
+                        .admin__data-grid-pager {
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+
+                            .action-previous, .action-next {
+                                width: 2rem;
+                            }
+
+                            .admin__control-text {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .data-grid {
+        thead {
+            tr {
+                th {
+                    font-size: .5em;
+                }
+            }
+        }
+
+        tbody {
+            .data-row {
+                td {
+                    font-size: .5em;
+                }
+            }
+        }
+    }
+}

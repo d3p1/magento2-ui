@@ -1,0 +1,31 @@
+/**
+ * @description Action dropdown menu align mixin
+ * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
+ */
+.admin__action-dropdown-menu__align(@_align) when (@_align = left) {
+    .admin__action-dropdown-text {
+        &:after {
+            left: -(@component__shadow-size__base + 1);
+            right: 0;
+        }
+    }
+
+    .admin__action-dropdown-menu {
+        left: auto;
+        right: 0;
+    }
+}
+
+.admin__action-dropdown-menu__align(@_align) when (@_align = right) {
+    .admin__action-dropdown-text {
+        &:after {
+            left: 0;
+            right: -(@component__shadow-size__base + 1);
+        }
+    }
+
+    .admin__action-dropdown-menu {
+        left: 0;
+        right: auto;
+    }
+}
