@@ -1,3 +1,10 @@
+# 1.0.0 (2026-05-05)
+
+
+### Features
+
+* init [[#1](https://github.com/d3p1/magento2-ui/issues/1)] ([8250d62](https://github.com/d3p1/magento2-ui/commit/8250d6226ea3fab3727f4f60642f986743b97462))
+
 # 1.0.0 (2026-04-22)
 
 
