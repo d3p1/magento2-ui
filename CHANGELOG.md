@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/d3p1/magento2-ui/compare/v1.0.1...v1.0.2) (2026-05-06)
+
+
+### Bug Fixes
+
+* improve code style [[#1](https://github.com/d3p1/magento2-ui/issues/1)] ([06b5868](https://github.com/d3p1/magento2-ui/commit/06b5868cce1dcfc16e6d003c57ce27d61b56cbba))
+
 ## [1.0.1](https://github.com/d3p1/magento2-ui/compare/v1.0.0...v1.0.1) (2026-05-05)
 
 
