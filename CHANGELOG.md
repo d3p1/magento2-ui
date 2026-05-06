@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/d3p1/magento2-ui/compare/v1.0.3...v1.0.4) (2026-05-06)
+
+
+### Bug Fixes
+
+* add missing module type [[#1](https://github.com/d3p1/magento2-ui/issues/1)] ([4588d33](https://github.com/d3p1/magento2-ui/commit/4588d33eb8122b64778d52cbe524ddedc8ab4e0f))
+
 ## [1.0.3](https://github.com/d3p1/magento2-ui/compare/v1.0.2...v1.0.3) (2026-05-06)
 
 
